@@ -45,4 +45,6 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Bak files generated from the editor
 *.bak
