@@ -4,7 +4,7 @@
 /* 	
 	This is how we define a constant value.
 	The constant cannot change its value or else error is produced.
-	We could use this by simply using the constant name 5.
+	We could use this by simply using the constant name.
 */
 #define PI 3.14
 #define HALF 0.5
@@ -37,7 +37,7 @@ void main() {
 		area= PI * dat1 * dat1;
 		printf("area of circle : %.2f", area);
 	} else if(shape == 't') {
-		printf("enter height :");
+		printf("enter height: ");
 		scanf("%d", &dat1);
 		printf("enter base: ");
 		scanf("%d", &dat2);
