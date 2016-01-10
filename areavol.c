@@ -1,20 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
 
-void main(){
-        char operation;
-
-        printf("enter function: (volume:v, area:a):");
-        scanf("%c", &operation);
-
-         if(operation == 'v'){
-            volume();
-         }else if(operation == 'a'){
-            area();
-        }else{
-            printf("invalid input");
-        }
-}
 // Code for Volume :
 void volume(){
 
@@ -69,3 +55,19 @@ void area(){
         }
 }
 
+void main(){
+        char operation;
+
+		clrscr();
+        printf("enter function: (volume:v, area:a):");
+        scanf("%c", &operation);
+
+         if(operation == 'v'){
+            volume();
+         }else if(operation == 'a'){
+            area();
+        }else{
+            printf("invalid input");
+        }
+		getch();
+}
