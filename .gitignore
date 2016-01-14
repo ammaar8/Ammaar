@@ -48,6 +48,5 @@ Temporary Items
 
 # Bak files generated from the editor
 *.bak
-*.BAK
 *.exe
 *.o
